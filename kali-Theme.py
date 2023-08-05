@@ -47,16 +47,4 @@ if vvvv =='n' :
 elif vvvv =='y' :
      os.system("cd $HOME && cd ../usr/etc && rm -rf bash.bashrc && cd && python kali.py && cd Kali-Theme && python kali-Theme.py")
      os.system("python kali.py")
-     os.system("clear")
-     print ("""\033[1;32m
      
- _______   ______   .__   __.  _______ 
-|       \ /  __  \  |  \ |  | |   ____|
-|  .--.  |  |  |  | |   \|  | |  |__   
-|  |  |  |  |  |  | |  . `  | |   __|  
-|  '--'  |  `--'  | |  |\   | |  |____ 
-|_______/ \______/  |__| \__| |_______|\033[1;34m
-exit the termux and open termux.. 
-""")
-                                       
-
